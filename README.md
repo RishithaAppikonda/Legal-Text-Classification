@@ -1,26 +1,20 @@
 # Legal-Text-Classification
+# Legal Text Preprocessing for NLP
+
 This project implements a text preprocessing pipeline for legal documents, preparing data for NLP tasks like classification, clustering, and information extraction. The pipeline uses Python, NLTK, and Pandas to clean and process text efficiently.
 
-Features
+## Features
 
-Load legal text data from CSV files
+- Load legal text data from CSV files
+- Tokenization of text into individual words
+- Stop word removal and filtering of non-alphanumeric tokens
+- Stemming using Porter Stemmer
+- Lemmatization using WordNet lemmatizer
+- Prints intermediate outputs for easy inspection
 
-Tokenization of text into individual words
+## Requirements
 
-Stop word removal and filtering of non-alphanumeric tokens
-
-Stemming using Porter Stemmer
-
-Lemmatization using WordNet lemmatizer
-
-Prints intermediate outputs for easy inspection
-
-Requirements
-
-Python 3.x
-
-pandas
-
-nltk
-
-spacy (optional for advanced NLP tasks)
+- Python 3.x
+- pandas
+- nltk
+- spacy (optional for advanced NLP tasks)
